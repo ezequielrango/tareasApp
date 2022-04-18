@@ -1,12 +1,26 @@
-.App {
+h1 {
   text-align: center;
+  font-size: 2em;
 }
 
+p {
+  cursor : pointer;
+  font-weight: bolder;
+}
+button:hover {
+  color: #61dafb;
+}
+.form-control {
+  margin: auto;
+  background-color: rgba(98, 95, 95, 0.344);
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+h3 {
+   text-align: center;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
